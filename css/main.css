@@ -173,11 +173,11 @@ main {
 
 .blue-color,
 .blue-color * {
-  color: #091e42 !important;
+  color: #091e42;
 }
 
 .ml-0 {
-  margin-left: 0 !important;
+  margin-left: 0;
 }
 
 .card {
@@ -209,7 +209,7 @@ li {
 }
 
 .card-stacks li {
-  background: rgba(255, 255, 255, 0.24) !important;
+  background: rgba(255, 255, 255, 0.24);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
 }
@@ -324,4 +324,52 @@ li {
 
 .skills {
   list-style: inside url("../media/svg/circle.svg");
+}
+
+.contact {
+  margin-top: 50px;
+  padding: 12px;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #091e42;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form input,
+textarea {
+  padding: 14px;
+  border: none;
+  outline: none;
+  width: 90%;
+  margin: 15px 0;
+}
+
+.contact-form input {
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.contact-form textarea {
+  background-color: #fbf8f7;
+  height: 200px;
+}
+
+.contact-form button {
+  padding: 14px;
+  color: white;
+  background-color: #ff6b00;
+  border: none;
+}
+
+.contact-form button:hover {
+  color: #ff6b00;
+  background-color: white;
 }
