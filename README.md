@@ -26,14 +26,6 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 - HTML
 - CSS
 
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
-  </ul>
-</details>
 
 ### Key Features <a name="key-features"></a>
 
